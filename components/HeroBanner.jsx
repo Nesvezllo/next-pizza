@@ -12,7 +12,7 @@ const HeroBanner = ({ bannerData }) => {
         <h3>{bannerData.midText}</h3>
         <h3>{bannerData.midText}</h3>
         <h3>{bannerData.midText}</h3>
-        <img  className='hero-banner-image' src={urlFor(bannerData.image)} alt="" />
+        {/* <img  className='hero-banner-image' src={urlFor(bannerData.image)} alt="" /> */}
       </div>
       <Link href={`/product/${bannerData.product}`}>
           <button>{bannerData.buttonText}</button>

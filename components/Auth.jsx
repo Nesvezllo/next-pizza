@@ -12,7 +12,19 @@ const Auth = () => {
                     <p>Номер телефона</p>
                     <input type="text" id="phone" name="phone" pattern='^ [ \+ ] ? [(] ? [0 - 9] {3} [)] ? [- \с \. ] ? [0 - 9] {3} [- \s \. ] ? [0 - 9] {4,6} $'/>
                 </div>
-                <button type='submit'><p>Выслать код</p></button>
+                <div className='input_block'>
+                    <p>Имя</p>
+                    <input type="text" id="name" name="name"/>
+                </div>
+                <div className='input_block'>
+                    <p>Адрес</p>
+                    <input type="text" id="address" name="address"/>
+                </div>
+                <div className='input_block'>
+                    <p>Номер дома</p>
+                    <input type="text" id="home_num" name="home_num"/>
+                </div>
+                <button type='button'><p>Выслать код</p></button>
             </div>
         </form>
     </div>
